@@ -1,0 +1,31 @@
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: cyan;
+    width: 130x;
+    height: 30px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 25px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+	border: 4px solid black;
+	color:cyan;
+	background:#ffffff url("https://enjoycss.com/webshots/hy_1.png");
+}
+
+
+#return-to-top:hover {
+   background: cadetblue;
+	border: 4px dotted black;
+	color:black; 
+	transition: 0.3s;
+}
